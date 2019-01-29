@@ -1,0 +1,188 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+body {
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  width: 96%;
+  padding: 2%;
+  box-shadow: -2px 0px 10px #bbb;
+  margin: 0 !important;
+}
+body .header .menu {
+  width: 3%;
+  transition: transform 0.3s ease-in-out;
+}
+body .header .menu:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(90deg);
+}
+body .header .menu .line {
+  border-radius: 10%;
+  width: 90%;
+  margin: 8% 0%;
+  height: 3px;
+  background: #333;
+}
+body .menu-slider {
+  position: absolute;
+  display: none;
+  top: 11%;
+  left: 0%;
+  padding: 2%;
+  width: 0%;
+  background: #fff;
+  transition: width 1s ease-in-out;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2em;
+  font-style: lighter;
+  box-shadow: 0px 2px 10px #ccc;
+}
+body .menu-slider .menu-option {
+  display: flex;
+  justify-content: center;
+  margin: 6%;
+}
+body .flex {
+  display: flex;
+}
+body .justify-content-center {
+  justify-content: center;
+}
+body .flex-direction-row {
+  flex-direction: row;
+}
+body .flex-direction-column {
+  flex-direction: column;
+}
+body .container {
+  display: flex;
+  border-radius: 2%;
+  margin: 2%;
+  padding: 2%;
+}
+body .container--2p {
+  width: 16%;
+  height: auto;
+}
+body .container--3p {
+  width: 26%;
+  height: auto;
+}
+body .container--4p {
+  width: 36%;
+  height: auto;
+}
+body .container--5p {
+  border-radius: 1% !important;
+  width: 46%;
+  height: auto;
+}
+body .container--6p {
+  border-radius: 1% !important;
+  width: 56%;
+  height: auto;
+}
+body .container--7p {
+  border-radius: 1% !important;
+  width: 66%;
+  height: auto;
+}
+body .container--8p {
+  border-radius: 1% !important;
+  width: 76%;
+  height: auto;
+}
+body .container--9p {
+  border-radius: 1% !important;
+  width: 86%;
+  height: auto;
+}
+body .container--full {
+  border-radius: 1% !important;
+  width: 92%;
+  height: auto;
+}
+body .input {
+  border: none;
+  border-radius: 8%;
+  height: auto;
+  padding: 2%;
+  margin: 2%;
+  color: #333;
+  font-family: "Ubuntu", sans-serif;
+}
+body .input:hover {
+  transition: outline 0.3s ease-in;
+  outline: #ccc auto 5px;
+  outline-offset: -2px;
+}
+body .input:focus {
+  transition: outline 0.3s ease-in;
+  outline: #333 auto 5px;
+}
+body .input--full {
+  width: 100%;
+}
+body .input--fullh {
+  height: 1.5em;
+}
+body .input--success {
+  outline: #0f4 auto 5px;
+}
+body .input--danger {
+  outline: #f04 auto 5px;
+}
+body .heading {
+  font-family: "Ubuntu", sans-serif;
+}
+body .heading--center {
+  text-align: center;
+}
+body .heading--left {
+  text-align: left;
+}
+body .heading--right {
+  text-align: right;
+}
+body .heading--small {
+  font-size: 0.8em;
+}
+body .heading--medium {
+  font-size: 1.2em;
+}
+body .heading--big {
+  font-size: 1.5em;
+}
+body .heading--secondary {
+  color: #ccc;
+}
+body .form {
+  width: 98%;
+  padding: 1%;
+}
+body .form .row {
+  width: 98%;
+  margin: 1%;
+}
+body .form .col {
+  width: auto;
+  padding: 2%;
+}
+body .button {
+  border: none;
+  padding: 4%;
+  font-family: "Ubuntu", sans-serif;
+  background: #fff;
+  border-radius: 2%;
+  outline: #ccc auto 5px;
+}
+body .button--primary {
+  background: #ccc !important;
+  color: #fff;
+}
+body .button--medium {
+  width: 32%;
+}
+
+/*# sourceMappingURL=index.css.map */

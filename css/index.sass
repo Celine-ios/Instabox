@@ -1,0 +1,166 @@
+$primary-color: #fff
+$secondary-color: #ccc
+$third-color: #333
+$success-color: #0f4
+$danger-color: #f04
+$font: 'Ubuntu', sans-serif
+@import 'https://fonts.googleapis.com/css?family=Ubuntu'
+
+body 
+	margin: 0
+	padding: 0
+	.header
+		width: 96%
+		padding: 2%
+		box-shadow: -2px 0px 10px #bbb
+		margin: 0 !important
+		.menu
+			width: 3%
+			transition: transform .3s ease-in-out
+			&:hover
+				transition: transform .3s ease-in-out
+				transform: rotate(90deg)
+			.line
+				border-radius: 10%
+				width: 90%
+				margin: 8% 0%
+				height: 3px
+				background: $third-color
+	.menu-slider
+		position: absolute
+		display: none
+		top: 11%
+		left: 0%
+		padding: 2%
+		width: 0%
+		background: $primary-color
+		transition: width 1s ease-in-out
+		font:
+			family: $font
+			size: 1.2em
+			style: lighter
+		box-shadow: 0px 2px 10px #ccc
+		.menu-option
+			display: flex
+			justify-content: center
+			margin: 6%
+			
+	.flex
+		display: flex
+	.justify-content-center
+		justify-content: center
+	.flex-direction-row
+		flex-direction: row
+	.flex-direction-column
+		flex-direction: column
+	.container
+		display: flex
+		border-radius: 2%
+		margin: 2%
+		padding: 2%
+
+	.container--2p
+		width: 16%
+		height: auto
+
+	.container--3p
+		width: 26%
+		height: auto
+
+	.container--4p
+		width: 36%
+		height: auto
+
+	.container--5p
+		border-radius: 1% !important
+		width: 46%
+		height: auto
+
+	.container--6p
+		border-radius: 1% !important
+		width: 56%
+		height: auto
+
+	.container--7p
+		border-radius: 1% !important
+		width: 66%
+		height: auto
+	
+	.container--8p
+		border-radius: 1% !important
+		width: 76%
+		height: auto
+
+	.container--9p
+		border-radius: 1% !important
+		width: 86%
+		height: auto
+
+	.container--full
+		border-radius: 1% !important
+		width: 92%
+		height: auto
+
+	.input
+		border: none
+		border-radius: 8%
+		height: auto
+		padding: 2%
+		margin: 2%
+		color: $third-color
+		font-family: $font
+		&:hover
+			transition: outline .3s ease-in
+			outline: $secondary-color auto 5px
+			outline-offset: -2px
+		&:focus
+			transition: outline .3s ease-in
+			outline: $third-color auto 5px
+	
+	.input--full
+		width: 100%
+	.input--fullh
+		height: 1.5em
+	.input--success
+		outline: $success-color auto 5px
+
+	.input--danger
+		outline: $danger-color auto 5px
+	.heading
+		font-family: $font
+	.heading--center
+		text-align: center
+	.heading--left
+		text-align: left
+	.heading--right
+		text-align: right 
+	.heading--small
+		font-size: 0.8em
+	.heading--medium
+		font-size: 1.2em
+	.heading--big
+		font-size: 1.5em
+	.heading--secondary
+		color: $secondary-color
+	.form
+		width: 98%
+		padding: 1%
+		.row
+			width: 98%
+			margin: 1%
+		.col
+			width: auto
+			padding: 2%
+	.button
+		border: none
+		padding: 4%
+		font-family: $font
+		background: $primary-color
+		border-radius: 2%
+		outline: $secondary-color auto 5px
+	.button--primary
+		background: $secondary-color !important
+		color: $primary-color		
+
+	.button--medium
+		width: 32%
